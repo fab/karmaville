@@ -1,14 +1,8 @@
-# Welcome to KarmaVille
+KarmaVille
+==========
+This was an exercise to demonstrate the power of database optimisation.
 
-## Getting Started
+The database given to us had 100,000 rows in the users table and 1,500,000 rows in the karma_points table.
+We used indexing and added a cached field to reduce the page load speed down to 50ms.
 
-KarmaVille uses [PostgreSQL](http://www.postgresql.org/).  Run the following commands to get started:
-
-```text
-$ git clone git://github.com/Devbootcamp/karmaville.git
-$ cd karmaville
-$ bundle install
-$ rake db:setup
-```
-
-The `rake db:setup` command could take several minutes to run.
+Completed by [@fabsays](https://github.com/fabsays) and [@slicebo123](https://github.com/slicebo123)
